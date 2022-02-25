@@ -1,5 +1,6 @@
 class NetworkData {
   static final baseUrl = "https://api.themoviedb.org/";
+  static final apiKey = "dbea3481f98c6d69c8b9faea8acf600e";
 
   Map<String, String> headers = {
     "Content-Type": "application/json",
@@ -13,6 +14,8 @@ class NetworkData {
     return newHeaders;
   }
 
-  static final tempToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYmVhMzQ4MWY5OGM2ZDY5YzhiOWZhZWE4YWNmNjAwZSIsInN1YiI6IjYyMTZiNjZjMGI1ZmQ2MDA2OTEzYzM4NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QPKVgsw1Qy-xKy2DTYzCraZDkmPB_jYNDmb8hPCxjp8";
-
+  static final tempToken =
+      "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYmVhMzQ4MWY5OGM2ZDY5YzhiOWZhZWE4YWNmNjAwZSIsInN1YiI6IjYyMTZiNjZjMGI1ZmQ2MDA2OTEzYzM4NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QPKVgsw1Qy-xKy2DTYzCraZDkmPB_jYNDmb8hPCxjp8";
 }
+
+NetworkData networkData = NetworkData();
